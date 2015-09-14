@@ -6,29 +6,8 @@
 .head-logo{
   background-color: #373737;
 }
-.logo{
-  position: relative;
-  background-image: url(../img/sprite.png);
-  background-repeat: no-repeat;
-  background-position: 0 -44px;
-  width: 93px;
-  height: 70px;
-}
-.logo-g{
-  position: absolute;
-  display: inline-block;
-  background-image: url(../img/sprite.png);
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  width: 20px;
-  height: 31px;
-  top: 19px;
-  left: 30px;
-}
 .head-logo .logo-text{
-  display: inline-block;
-  text-align: center;
-  margin-left: 110px;
+  padding-left: 10px;
   margin-top: 19px;
   font-size: 20px;
 }
