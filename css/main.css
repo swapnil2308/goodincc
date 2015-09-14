@@ -40,12 +40,12 @@
   margin-left: 20px;
 }
 .caret-custom{
-  display: block;
+  display: inline-block;
   background-image: url(../img/sprite.png);
   background-repeat: no-repeat;
-  background-position: -25px 4px;
+  background-position: -25px 3px;
   width: 9px;
-  height: 20px;
+  height: 15px;
 }
 .nav-dart,
 .clock{
@@ -56,10 +56,86 @@
   z-index: 3;
 }
 .nav-dart{
-  background-position: -56px 4px;
+  background-position: -39px 4px;
   width: 15px;
 }
 .clock{
   background-position: -39px 4px;
   width: 11px;
+}
+/* navigation-bar css starts here */
+.navigation-bar{
+  background-color: #ebebeb;
+}
+.nav-dart-custom{
+  top: 17px;
+  left: -4px;
+}
+.inblock{
+  display: inline-block;
+}
+.nav li a{
+  color: #fff;
+}
+.nav .border a{
+  border-right: 1px solid #000;
+}
+.nav .pad a{
+  padding: 0;
+}
+.nav li:hover a{
+  color: #000;
+  background-color: transparent;
+}
+.nav li:focus{
+  background-color: transparent;
+}
+.qcklnk1{
+  margin-top: 6px;
+}
+.qcklnk2{
+  margin-top: 10px;
+}
+.quick-links li{
+  list-style-type: none;
+}
+.social{
+
+}
+.social li{
+  padding: 5px 20px;
+  list-style-type: none;
+  display: inline-block;
+}
+.social li a{
+  color: #474747;
+}
+.social li a:hover{
+  text-decoration: none;
+}
+.social li a:focus{
+  text-decoration: none;
+}
+.social .bird,
+.social .fb,
+.social .rss,
+.social .mail{
+  display: inline-block;
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat;
+  height: 15px;
+  width: 13px;
+  margin-right: 10px;
+}
+.social .bird{
+  background-position: -76px 5px;
+}
+.social .fb{
+  background-position: -88px 4px;
+}
+.social .rss{
+  background-position: -102px 6px;
+}
+.social .mail{
+  background-position: -120px 6px;
 }
