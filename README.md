@@ -1,2 +1,0 @@
-# goodincc
-Good Inc PSD
