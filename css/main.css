@@ -1,0 +1,65 @@
+/*Global and Common CSS Here*/
+.white{
+  color: #fff;
+}
+/* head-logo css here */
+.head-logo{
+  background-color: #373737;
+}
+.logo{
+  position: relative;
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat;
+  background-position: 0 -44px;
+  width: 93px;
+  height: 70px;
+}
+.logo-g{
+  position: absolute;
+  display: inline-block;
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 20px;
+  height: 31px;
+  top: 19px;
+  left: 30px;
+}
+.head-logo .logo-text{
+  display: inline-block;
+  text-align: center;
+  margin-left: 110px;
+  margin-top: 19px;
+  font-size: 20px;
+}
+.head-logo-box1,
+.head-logo-box2{
+  margin-top: 19px;
+}
+.head-logo-box1{
+  margin-left: 20px;
+}
+.caret-custom{
+  display: block;
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat;
+  background-position: -25px 4px;
+  width: 9px;
+  height: 20px;
+}
+.nav-dart,
+.clock{
+  display: inline-block;
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat;
+  height: 20px;
+  z-index: 3;
+}
+.nav-dart{
+  background-position: -56px 4px;
+  width: 15px;
+}
+.clock{
+  background-position: -39px 4px;
+  width: 11px;
+}
